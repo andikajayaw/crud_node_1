@@ -4,7 +4,7 @@ This is a CRUD Application with Node, Express & MongoDB
 
 ## Installation
 
-Use the your favourite package manager [npm](https://nodejs.org/en/download/) to install.
+Use the node package manager [npm](https://nodejs.org/en/download/) to install.
 
 ```bash
 npm install 
