@@ -14,6 +14,6 @@ var schema = new mongoose.Schema({
     status: String
 });
 
-const userDb = mongoose.model('userdb', schema);
+const Userdb = mongoose.model('userdb', schema);
 
-module.exports = userDb;
+module.exports = Userdb;
