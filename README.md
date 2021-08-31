@@ -1,13 +1,25 @@
-# CRUD APPLICATION W/ NODE FOR BEGINNER
+# Simple CRUD Example with Node
 
-This is a CRUD Application with Node, Express & MongoDB
+This project is a part of our NodeJs learning journey. We are trying to give an implementation of CRUD in simple example.
 
 ## Installation
 
-Use the node package manager [npm](https://nodejs.org/en/download/) to install.
-
+1. Use `npm` or `yarn` to install
 ```bash
-npm install 
+npm install
 ```
+or
+```bash
+yarn
+```
+
 ## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+1. Fork our repository at `https://github.com/andikajayaw/crud_node_1`
+2. Make a modification
+3. Create a new pull request
+
+## License
+
+The applicaion is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+=======
