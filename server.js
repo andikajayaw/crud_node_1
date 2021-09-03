@@ -26,7 +26,7 @@ app.set("view engine", "ejs");
 
 // load assets
 app.use('/css', express.static(path.resolve(__dirname, "assets/css")));
-app.use('/ing', express.static(path.resolve(__dirname, "assets/ing")));
+app.use('/ing', express.static(path.resolve(__dirname, "assets/img")));
 app.use('/js', express.static(path.resolve(__dirname, "assets/js")));
 
 // load router
