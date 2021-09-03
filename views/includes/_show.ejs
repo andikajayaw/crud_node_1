@@ -1,15 +1,27 @@
-<tr>
-    <td>1</td>
-    <td>Andika</td>
-    <td>admin@example.com</td>
-    <td>Male</td>
-    <td>Active</td>
-    <td>
-        <a href="/update_user" class="btn border-shadow update">
-            <span class="text-gradient"> <i class="fas fa-pencil-alt"></i> </span>
-        </a>
-        <a href="#" class="btn border-shadow delete">
-            <span class="text-gradient"> <i class="fas fa-times"></i> </span>
-        </a>
-    </td>
-</tr>
+<% for (user in users) { %>
+    <tr>
+        <td>
+            <%= Number(user)+1 %>
+        </td>
+        <td>
+            <%= users[user].name %>
+        </td>
+        <td>
+            <%= users[user].email %>
+        </td>
+        <td>
+            <%= users[user].gender %>
+        </td>
+        <td>
+            <%= users[user].status %>
+        </td>
+        <td>
+            <a href="/update_user" class="btn border-shadow update">
+                <span class="text-gradient"> <i class="fas fa-pencil-alt"></i> </span>
+            </a>
+            <a href="#" class="btn border-shadow delete">
+                <span class="text-gradient"> <i class="fas fa-times"></i> </span>
+            </a>
+        </td>
+    </tr>
+    <% } %>
